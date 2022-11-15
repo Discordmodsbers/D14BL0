@@ -46,7 +46,7 @@ optional arguments:
   # Oneliner install
   
   ```
-  git clone https://github.com/Discordmodsbers/D14BL0/ && cd D14BL0 && pip install -r requirements.txt && sudo diablo.py -h
+  git clone https://github.com/Discordmodsbers/D14BL0/ && cd D14BL0 && pip install -r requirements.txt && sudo python3 diablo.py -h
   ```
   
   # Supported systems
