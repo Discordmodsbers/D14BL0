@@ -8,7 +8,7 @@ os.system(f'git clone https://github.com/Discordmodsbers/D14BL0 {USRDIR}')
 os.system('chmod +x diablo.py')
 os.system(f'mv diablo.py {USRDIR2}')
 
-with open('/etc/bash.bashrc', 'a') as f:
+with open('/home/ubuntu/.bashrc', 'a') as f:
   f.write("alias diablo='python3 /usr/bin/D14BL0 diablo.py'")
   f.close()
  
